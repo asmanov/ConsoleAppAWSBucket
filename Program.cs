@@ -8,9 +8,9 @@ class S3Uploader
 {
     static async Task Main(string[] args)
     {
-        BasicAWSCredentials credentials = new BasicAWSCredentials("AKIAQ3EGP4UWFONW466S", "Nm/dvNTuQtmuZU00/eqiCFnWA475euLnHp9vMZQH");
+        BasicAWSCredentials credentials = new BasicAWSCredentials("", "");
         IAmazonS3 client = new AmazonS3Client(credentials, Amazon.RegionEndpoint.USEast1);
-        string bucketName = "asmanovbucket";
+        string bucketName = "";
         string keyName = "";
         string filePath = @"C:\Users\АсмановОлексійАлійов\Downloads\20231105_152028.jpg";
 
